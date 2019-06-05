@@ -115,10 +115,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2>ABOUT <span>US</span></h2>
-                        <div class="item">
                 <p>We are a web development company. We use latest technology to build the websites. We are a team of most talented and expert web developer</p>
             
-                    </div>
                 </div>
             </div>
         </div>
@@ -127,7 +125,7 @@
             <div class="row">
                 <div class="about-contant theme-contant">
                     <div class="col-sm-6">
-                        <p>Meet us</p>
+                        <p>Digitalize your world, we are here to help you.</p>
                     </div>
                     <div class="col-sm-6">
                         <img src="images/about-us.jpg" class="img-responsive">
