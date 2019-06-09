@@ -114,35 +114,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>ABOUT <span>US</span></h2>
-                <p>We are a web development company. We use latest technology to build the websites. We are a team of most talented and expert web developer</p>
-            
+                        <h2>Bhatnagar Informatics (Web Development Company)</h2>
+                <p>Digitalize your Business, get more clients through online platform</p>
+                <p>Want to Become Web Developer <a href="#contact">Visit Us<a> </p>            
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="about-contant theme-contant">
-                    <div class="col-sm-6">
-                        <p>Digitalize your world, we are here to help you.</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="images/about-us.jpg" class="img-responsive">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section>
     <!-- /.About Us -->
-
-    <!-- Video section -->
-    <section class="videos-sec">
-        <iframe width="100%" height="430px" src="https://www.youtube.com/embed/a1__rqrIb9g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-            
-        </iframe>
-    </section>
-    <!-- /.Video Section -->
 
     <!-- Blog Sec -->
 
@@ -180,73 +159,7 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="ctn-form">
-                                <form id="" name="" class="" method="" action="">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-
-                                            <div class="form-group">
-                                                <input type="text" id="user" name="first" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
-                                                <label for="first" class="control-label">
-                                                    first Name
-                                                </label>
-                                                <i class="bar"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input type="text" id="Last" name="Last" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
-                                                <label for="Last" class="control-label">
-                                                    Last Name
-                                                </label>
-                                                <i class="bar"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input type="email" id="Email" name="Email" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
-                                                <label for="Email" class="control-label">
-                                                    Email
-                                                </label>
-                                                <i class="bar"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input type="tel" id="Phone" name="Phone" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
-                                                <label for="Phone" class="control-label">
-                                                    Phone
-                                                </label>
-                                                <i class="bar"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input type="text" id="Subject" name="Subject" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
-                                                <label for="Subject" class="control-label">
-                                                    Subject
-                                                </label>
-                                                <i class="bar"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input type="text" id="Messageer" name="Message" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
-                                                <label for="Message" class="control-label">
-                                                    Message
-                                                </label>
-                                                <i class="bar"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="form-group">
-
-                                                <input type="file">
-
-                                            </div>
-                                            <input type="submit" id="submit-user" name="" class="btn-send btn-green" value="Send">
-                                        </div>
-                                    </div>
-                                </form>
+                            <img width="100%" src="images/map.png" />
                             </div>
                         </div>
                     </div>
