@@ -159,7 +159,7 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="ctn-form">
-                            <img width="100%" src="images/map.png" />
+                            <img width="100%" src="images/mappng.png" />
                             </div>
                         </div>
                     </div>
