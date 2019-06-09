@@ -70,7 +70,7 @@
     <section class="home-slider">
         <div class="owl-carousel">
             <div class="item" id="about_us">
-                <p>About Us</p>
+                <p>Bhatnagar Informatics</p>
             </div>
             <div class="item">
                 <p>We are a web development company.</p>
@@ -114,7 +114,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Bhatnagar Informatics (Web Development Company)</h2>
+                        <h2>About Us</h2>
                 <p>Digitalize your Business, get more clients through online platform</p>
                 <p>Want to Become Web Developer <a href="#contact">Visit Us<a> </p>            
                 </div>
