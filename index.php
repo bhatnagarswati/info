@@ -20,9 +20,7 @@
 
 </head>
 
-<body>
-
- 
+<body>  
   <header>
         <nav class="navbar ">
             <div class="container">
@@ -189,7 +187,13 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="ctn-form">
-                                <form class="" method="POST" action="contact.php">
+                                <div class="row" id="alert-msg-div" style="display:none;">
+                                    <div class="col-md-12 alert alert-success text-center" id="alert-msg"></div></div>
+                                
+                                    <div class="row" id="alert-msg-error-div" style="display:none;">
+                                    <div class="col-md-12 alert alert-danger text-center" id="alert-msg-error"></div></div>
+                                
+                                <form class="" method="POST" id="contact_form" action="">
                                     <div class="row">
                                         <div class="col-sm-6">
 
@@ -298,9 +302,46 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/f58ad76126.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script>
+
+        $(function() {
+  // Initialize form validation on the registration form.
+  // It has the name attribute "registration"
+  $("#contact_form").validate();
+});
+    $("#contact_form").submit(function(e){
+       
+        e.preventDefault();
+        if($("#contact_form").valid() ) {
+        var formdata = $("#contact_form").serialize();
+
+        $.ajax({
+            url:"contact.php",
+            data:formdata,
+            type:"POST",
+            success:function(res){
+               res = JSON.parse(res);
+               if(res.status == 'success') {
+                    $("#alert-msg").html(res.message);
+                    $("#alert-msg-div").show();
+                    $("#contact_form").trigger('reset');
+                }else{
+                    $("#alert-msg-error").html(res.message).show();
+                    $("#alert-msg-error-div").show();
+                }                
+            }
+        });
+        }
+
+   });
+    </script>
 </body>
 
 </html>
