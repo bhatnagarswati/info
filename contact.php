@@ -24,7 +24,7 @@ if($_SERVER['HTTP_ORIGIN'] == "http://bhatnagarinformatics.com") {
             mysqli_query($conn, "INSERT INTO `contacts` (first_name, last_name, email, phone, subject, message, ip, created_at) VALUES ('$name', '$last_name', '$email', '$phone', '$subject', '$message', '$ip', '$date') ");
             $insert_id = mysqli_insert_id($conn);
             if(!empty($insert_id)) {
-                $message = "Your contact information is saved successfully";    
+                $message = "Your query is submitted successfully";    
                 $data = [
                     'status' => 'success',
                     'message' => $message
