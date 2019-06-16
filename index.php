@@ -4,9 +4,11 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="keywords" content="Website, Website development, html, css, training, learn website development, learn php, learn html css">
+    <meta name="keywords" content="Bhatnagar Informatics, Website, Website development, html, css, training, learn website development, learn php, learn html css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bhatnagar Informatics</title>
+    <title>Bhatnagar Informatics - Software Development Company</title>
+
+    <meta name="description" content="Bhatnagr informatics is a Software Development Company provides solutions to digitalize your organization." />
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -32,7 +34,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="Site-logo" href="index.html">Bhatnagar Informatics</a>
+                    <a class="Site-logo" href="/">Bhatnagar Informatics</a>
                 </div>
                 <!--div class="search-sec">
                     <div class="join-user">
@@ -46,15 +48,15 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about_us">About Us </a></li>
-                        <li><a href="#programs">Programs</a></li>                        
-                        <li><a href="#services">Services</a></li>
-                        <li class="dropdown ">
+                        <li><a href="#about_us">About Us </a></li>                   
+                        <li><a href="#visit_sec">Visit Us</a></li>
+                        <li><a href="#contact_sec">Contact Us</a></li>
+                       <!--    <li class="dropdown ">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Feedback & Contact us</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -141,13 +143,13 @@
     <!-- /.Comment Sec-->
 
     <!-- contact Us -->
-    <section class="contact-sec">
+    <section class="visit-sec" >
         <div class="contact theme-heading">
             <div class="container">
-                <div class="row">
+                <div class="row" id="visit_sec">
                     <div class="col-md-12">
-                        <h2>GET IN TOUCH <span>WITH US</span></h2>
-                        <p>Call us @+91752896550</p>
+                        <h2>Visit Us</span></h2>
+                        <p>#4, Model Town, Kurali, Punjab (140103)</p>
                     </div>
                 </div>
             </div>
@@ -168,22 +170,124 @@
         </div>
     </section>
     <!-- /.contact Us -->
+
+    <section class="contact-sec" id="contact_sec">
+        <div class="contact theme-heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>GET IN TOUCH <span>WITH US</span></h2>
+                        <p>Call @+917528965550</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-contant-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="ctn-form">
+                                <form class="" method="POST" action="contact.php">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+
+                                            <div class="form-group">
+                                                <input type="text" id="user" name="first" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
+                                                <label for="first" class="control-label">
+                                                    first Name
+                                                </label>
+                                                <i class="bar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" id="Last" name="Last" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
+                                                <label for="Last" class="control-label">
+                                                    Last Name
+                                                </label>
+                                                <i class="bar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="email" id="Email" name="Email" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
+                                                <label for="Email" class="control-label">
+                                                    Email
+                                                </label>
+                                                <i class="bar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="tel" id="Phone" name="Phone" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
+                                                <label for="Phone" class="control-label">
+                                                    Phone
+                                                </label>
+                                                <i class="bar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" id="Subject" name="Subject" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
+                                                <label for="Subject" class="control-label">
+                                                    Subject
+                                                </label>
+                                                <i class="bar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" id="Messageer" name="Message" class="control-inputs" minlength="" maxlength="100" autocomplete="off" value="" required="required">
+                                                <label for="Message" class="control-label">
+                                                    Message
+                                                </label>
+                                                <i class="bar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <input type="submit" id="submit-user" name="" class="btn-send btn-green" value="Send">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
                     <h3>Company</h3>
-                    <p>Web development company</p>
+                    <p>Bhatnagar Informatics is a Web development company, which provides all solutions to digitalize your business.
+                        We are specialized in organization management systems, school management system, Bookings management systems etc.
+                    </p>
                 </div>
                 <div class="col-sm-4">
                     <h3>Contact Us</h3>
-                    <p>+917528965550</p>
-
                     <p><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>#4 Model Town, Kurali, Punjab, 140103</p>
 
                     <p><span><i class="fa fa-phone" aria-hidden="true"></i></span>+917528965550</p>
 
                     <p><span><i class="fa fa-envelope" aria-hidden="true"></i></span>bhatnagar.asso0605@gmail.com</p>
+
+
+                </div>
+
+                 <div class="col-sm-4">
+                    <h3>Careers</h3>
+                    <p>We are hiring!!! (Submit contact us form above, we will reach you.)</p>
+
+                    <p><span></span>PHP Developer</p>
+
+                    <p><span></span>Content Writer</p>
+
+                    <p><span></span>Web Desiger</p>
 
 
                 </div>

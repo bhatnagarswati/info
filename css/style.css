@@ -8,22 +8,24 @@ body{margin:0;padding:0;font-family:Helvetica;font-size:15px;color:#919090;    t
 @font-face{font-family:HELVETICANEUELTSTD-LT;src:url(../fonts/HELVETICANEUELTSTD-LT.OTF)}
 
 
-a,a:hover{text-decoration:none; color: #d83642;}
+a,a:hover{text-decoration:none; color: #337ab7;}
 a.btn-add:focus, a.btn-green:focus, .login-button:focus{text-decoration:none; color:#fff;}
 h2{font-size:48px;color:#404040;font-family:HelveticaNeue;text-transform: uppercase;}
 h2 span{font-family:HELVETICANEUELTSTD-LT}
 ul{padding: 0; margin: 0; list-style-type: none}
 .theme-heading p{color:#404040}
-.color-red{color:#d83642!important}
-.bg-red{background:#d83642 !important;}
+.color-red{color:#337ab7!important}
+.bg-red{background:#337ab7 !important;}
 .bg-green{background:#49ae81 !important;}
 .color-green{color:#49ae81 !important; }
 p strong {
     font-family: HelveticaNeue;
 }
 .navbar-nav > li > .dropdown-menu li.active a {
-    background: #d83542;
+    background: #337ab7;
 }
+
+
 /** Header css **/
 
 header{float:left;width:100%;padding:20px 0}
@@ -48,6 +50,10 @@ header .search-sec button{background:#d83542;color:#fff;border:0;font-size:16px;
 .navbar-nav > li > .dropdown-menu a:hover, .navbar-nav > li > .dropdown-menu a:focus {
     background: #d83542;
     color: #fff;
+}
+
+.navbar-header .Site-logo{
+    font-size:30px;
 }
 .join-user {
     display: inline-block;
@@ -74,7 +80,7 @@ section.home-slider{float:left;width:100%}
 section.aboutus-sec{float:left;width:100%}
 .theme-heading{background:#f0f0f0;float:left;width:100%;text-align:center;padding:50px 0 85px; position: relative;}
 section.home-slider .owl-dots{display:none}
-.home-slider .owl-item{background:url(../images/home-slider.jpg);background-size:cover;background-repeat:no-repeat;text-align:center;color:#fff;height:500px;display:flex;vertical-align:middle;align-items:center;justify-content:center}
+.home-slider .owl-item{background:url(../images/home.jpg);background-size:cover;background-repeat:no-repeat;text-align:center;color:#fff;height:500px;display:flex;vertical-align:middle;align-items:center;justify-content:center}
 .home-slider .owl-nav{position:absolute;top:35%;z-index:9999999;width:100%}
 .home-slider .owl-nav button{font-size:110px!important;outline:none;color:#fff!important;
     font-weight:100!important; }
@@ -110,9 +116,9 @@ section.home-slider button.owl-next{right:10%;position:absolute;line-height:0!im
 .owl-carousel.owl-drag .owl-item h2{font-size:38px;color:#fff}
 .owl-nav button{outline:none}
 section.home-slider .owl-carousel.owl-drag .owl-item p{font-size:24px}
-.blog-post p a{display:inline-block;margin:0;color:#d83642}
+.blog-post p a{display:inline-block;margin:0;color:#337ab7}
 .btn-green{max-width:170px;background:#49ae81;color:#fff;  font-family:HelveticaNeue;font-size:18px;width:100%;display:block;line-height:41px;border-radius:30px;margin:40px auto 0;transition:.56s;text-align:center;text-transform:uppercase}
-.btn-green:hover{background:#d83542;color:#fff}
+.btn-green:hover{background:#337ab7;color:#fff}
 .theme-contant{background:#fff;float:left;width:100%;display:block;z-index:99999;transform:translateY(-50px);padding:30px 10px}
 .about-contant a.btn-green{float:left}
 section.blog-sec{float:left;width:100%}
@@ -125,7 +131,7 @@ section.videos-sec{float:left;width:100%;background:#f0f0f0}
 .blog-post a{display:block;clear:both;color:#49ae81;    margin: 14px 0 10px; font-weight: 600;}
 .blog-post,.blog-post p{font-size:12px;text-align: justify;}
 .blog-contant{float:left;width:100%;transform:translateY(-60px)}
-section.update-sec{float:left;width:100%;border-top:11px solid #d83642; position: relative;}
+section.update-sec{float:left;width:100%;border-top:11px solid #337ab7; position: relative;}
 section.update-sec:before {content: "";width: 100%;height: 25px;background: #ffffff;display: block;
     position: absolute; top: -30px;left: 0;z-index: 999;max-width: 570px;right: 0;margin: auto;}
  section.update-sec.Segment::before{ /*background: #f0f0f0 */}
@@ -147,7 +153,7 @@ p.like-comts-share span:hover{color: #49ae81}
 .blog-post .header a { display: inline-block; margin: 0;}
 .comment.theme-heading{background:#fff}
 .contact-contant-area .card input#submit-user{float:left;margin:0;border:0;outline:none}
-section.subscription-sec{float:left;width:100%;background:#d83642;color:#fff;padding:70px 0}
+section.subscription-sec{float:left;width:100%;background:#337ab7;color:#fff;padding:70px 0}
 section.subscription-sec .left-text p{font-size:33px;display:inline-block;text-transform:uppercase;
     font-weight: 700;}
 section.subscription-sec .left-text p span{font-family:HELVETICANEUELTSTD-LT;font-weight: 300;}
@@ -221,7 +227,7 @@ ul.social-network li{display:inline;margin:0 5px 0 0px}
 .social-network a.icoRss:hover{background-color:#F56505}
 .social-network a.icoFacebook:hover{background-color:#3B5998}
 .social-network a.icoTwitter:hover{background-color:#3cf}
-.social-network a.icoGoogle:hover{background-color:#BD3518}
+.social-network a.icoGoogle:hover{background-color:#337ab7}
 .social-network a.icoVimeo:hover{background-color:#0590B8}
 .social-network a.icoLinkedin:hover{background-color:#007bb7}
 .social-network a.icoRss:hover i,.social-network a.icoFacebook:hover i,.social-network a.icoTwitter:hover i,.social-network a.icoGoogle:hover i,.social-network a.icoVimeo:hover i,.social-network a.icoLinkedin:hover i{color:#fff}
@@ -375,7 +381,7 @@ p.between span {
     text-transform: uppercase;font-family:HelveticaNeue;
     background: #49ae81;line-height: 36px;
 }
-.login-button:hover{ background: #d83642; color: #fff; }
+.login-button:hover{ background: #337ab7; color: #fff; }
 .blue-bg {
     background: #007ab6 !important;
     text-transform: capitalize;
@@ -390,7 +396,7 @@ section.brand-crum ul li {
 section.brand-crum ul li a {
     color: #404040;
 }
-section.brand-crum ul li:last-child a{color: #d83642;}
+section.brand-crum ul li:last-child a{color: #337ab7;}
 .about-team {
     background: #fff;
     float: left;
@@ -418,7 +424,7 @@ section.brand-crum ul li:last-child a{color: #d83642;}
     right: 10px;
     top: 11px;
     font-size: 25px;    cursor: pointer;
-    color: #d83542;
+    color: #337ab7;
 }
 ul.nav.nav-tabs {
     border-bottom: 0;
@@ -466,7 +472,7 @@ p.show-result {
 .site-pagenation li a{
 color:#919090;
 }
-.site-pagenation li.active a, .site-pagenation li:hover a{color: #d83642}
+.site-pagenation li.active a, .site-pagenation li:hover a{color: #337ab7}
 ul.nav.nav-tabs li select {
     border: 0;
     outline: 0;
@@ -491,7 +497,7 @@ ul.nav.nav-tabs li {
     text-align: left;
 }
 .company-listing h3 {
-    color: #d83642;
+    color: #337ab7;
     border-bottom: 1px solid #404040;
     font-family: HelveticaNeue;
     font-size: 24px;
@@ -506,7 +512,7 @@ ul.nav.nav-tabs li {
     text-align: center;
     line-height: 30px;
 }
-.btn-add:hover{background: #d83642; color: #fff}
+.btn-add:hover{background: #337ab7; color: #fff}
 .company-search .search-result {
     width: 40%;
 }
